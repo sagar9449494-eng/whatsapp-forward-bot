@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-forward-bot",
+  "version": "1.0.0",
+  "description": "Forward messages from one WhatsApp number to another",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0",
+    "puppeteer": "^24.15.0"
+  }
+}
